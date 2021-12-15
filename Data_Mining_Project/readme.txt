@@ -36,6 +36,3 @@ Once the data is available in HD5 format (either as time series or images), tens
 
 All the csv files used to obtain the AUC scores are included as well as all the models that gave the best score in HD5 format and also all the plots of accuracy, loss and ROC-AUC.
 
-
-Finally, I would apologize as all the codes are not optimized for easy running and needs to be hand modified to update the necessary files and loccation. It is a learning curve for me and I quitely getting better at it.
-
