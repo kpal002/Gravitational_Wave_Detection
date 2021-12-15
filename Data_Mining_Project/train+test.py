@@ -34,12 +34,12 @@ batch_size = 64 * strategy.num_replicas_in_sync
 
 
 # Reading the dataset from HD5 files in batches and separate into train, validation and test set. Define the location of the data here.
-x_val = tfio.IODataset.from_hdf5('/bigdata/wudkalab/kpal002/training_time_final.h5', dataset='/val_data')
-y_val = tfio.IODataset.from_hdf5('/bigdata/wudkalab/kpal002/training_time_final.h5', dataset='/val_label')
+x_val = tfio.IODataset.from_hdf5('path to file location', dataset='/val_data')
+y_val = tfio.IODataset.from_hdf5('path to file location', dataset='/val_label')
 
-x_train = tfio.IODataset.from_hdf5('/bigdata/wudkalab/kpal002/training_time_final.h5', dataset='/train_data')
-y_train = tfio.IODataset.from_hdf5('/bigdata/wudkalab/kpal002/training_time_final.h5', dataset='/train_label')
-x_test = tfio.IODataset.from_hdf5('/bigdata/wudkalab/kpal002/testing_time_final.h5', dataset='/test_data')
+x_train = tfio.IODataset.from_hdf5('path to file location', dataset='/train_data')
+y_train = tfio.IODataset.from_hdf5('path to file location', dataset='/train_label')
+x_test = tfio.IODataset.from_hdf5('path to file location', dataset='/test_data')
 
 train = tf.data.Dataset.zip((x_train,y_train)).batch(batch_size, drop_remainder=True).prefetch(tf.data.experimental.AUTOTUNE)
 val = tf.data.Dataset.zip((x_val,y_val)).batch(batch_size, drop_remainder=True).prefetch(tf.data.experimental.AUTOTUNE)
