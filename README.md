@@ -21,4 +21,4 @@ Bandpass filter was applied in the range [20,500] Hz based on the knowledge that
 
 Next the time series data was converted to the frequency domain using constant transorm and Short-time Fourier transform which gave a slightly better glance at the signal.
 
-<img src="CQT.jpg" alt="drawing" width="200"/>
+<img src="CQT.png" alt="drawing" width="200"/>
