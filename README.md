@@ -15,6 +15,6 @@ compared to a sample with label y = 0 (only background noise)
 shows that no signs of signal jumps out of the naked eye.
 
 
-Bandpass filter was applied in the range [20,500] Hz based on the knowledge that gravitational wave signals from binary black hole mergers generally appear in the range [20,350] Hz. After filtering, time series data containing a signal event loooked something like
+Bandpass filter was applied in the range [20,500] Hz based on the knowledge that gravitational wave signals from binary black hole mergers generally appear in the range [20,350] Hz. Following is a sample data containing a signal event after bandpass filtering
 
-![filter](dilter.png)
+![filter](filter.png)
