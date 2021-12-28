@@ -6,4 +6,4 @@ The dataset was part of a kaggle competition https://www.kaggle.com/c/g2net-grav
 
 A sample with signal present (labeled 1) 
 
-![GitHub Logo](label1.png)
+![GitHub Logo](label_1.png)
