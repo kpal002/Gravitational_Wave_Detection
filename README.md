@@ -8,8 +8,13 @@ A sample with signal present (labeled y = 1)
 
 ![label0](label_1.png)
 
-comapred to a sample with label y = 0 (only background noise)
+compared to a sample with label y = 0 (only background noise)
 
 ![label1](label_0.png)
 
 shows that no signs of signal jumps out of the naked eye.
+
+
+Bandpass filter was applied in the range [20,500] Hz based on the knowledge that gravitational wave signals from binary black hole mergers generally appear in the range [20,350] Hz. After filtering, time series data containing a signal event loooked something like
+
+![filter](dilter.png)
