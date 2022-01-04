@@ -27,6 +27,6 @@ Apart from this, other transformations like Gramian Angular Fields and Markov tr
 
 <img src="GAF.png" alt="drawing" height= "400" width="500"/> <figcaption> Gramian Angular Fields </figcaption> <img src="MTF.png" alt="drawing" height= "400" width="500"/><figcaption> Markov Transition Fields </figcaption>
 
-![alt-text-1](GAF.png "title-1") ![alt-text-2](MTF.png "title-2")
+|![alt-text-1](GAF.png "title-1")| ![alt-text-2](MTF.png "title-2")|
                                                           
 
