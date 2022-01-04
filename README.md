@@ -22,3 +22,7 @@ Bandpass filter was applied in the range [20,500] Hz based on the knowledge that
 Next the time series data was converted to the frequency domain using constant transorm and Short-time Fourier transform which gave a slightly better glance at the signal.
 
 <img src="CQT.png" alt="drawing" height= "400" width="500"/>
+
+Apart from this, other transformations like Gramian Angular Fields and Markov transition fields are also tried out. https://arxiv.org/pdf/1506.00327.pdf
+
+![filter](GAF.png)
