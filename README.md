@@ -27,8 +27,7 @@ Apart from this, other transformations like Gramian Angular Fields and Markov tr
 
 <img src="GAF.png" alt="drawing" height= "400" width="500"/>  <img src="MTF.png" alt="drawing" height= "400" width="500"/><figcaption> Markov Transition Fields </figcaption>
 
-| [![GAF](GAF.png)](Gramian Angular Fields)  | [![MTF](MTF.png)](Markov Transition Fields) | 
+| [![GAF](GAF.png)(Gramian Angular Fields)  | [![MTF](MTF.png)(Markov Transition Fields) | 
 |:---:|:---:|
-| http://videoblocks.com | http://audioblocks.com | http://graphicstock.com |
                                                         
 
