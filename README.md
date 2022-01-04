@@ -25,6 +25,6 @@ Next the time series data was converted to the frequency domain using constant t
 
 Apart from this, other transformations like Gramian Angular Fields and Markov transition fields are also tried out. https://arxiv.org/pdf/1506.00327.pdf
 
-<img src="GAF.png" alt="drawing" height= "400" width="500"/> <img src="MTF.png" alt="drawing" height= "400" width="500"/>
-              Gramian Angular Fields                                             Markov Transition Fields
+<img src="GAF.png" alt="drawing" height= "400" width="500"/> <figcaption>MDN Logo</figcaption> <img src="MTF.png" alt="drawing" height= "400" width="500"/>
+                                                          Markov Transition Fields
 
